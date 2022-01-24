@@ -1,5 +1,6 @@
-echo This will open all the ports and install the latest version of minecraft server.
+echo This will open all the ports
 echo Make Sure you have done the firewall on the oracle website as well
+echo make sure you are in the folder you want the server to be in. Use mkdir to make this folder. 
 
 
 apt upgrade 
@@ -18,3 +19,5 @@ firewall-cmd --reload
 echo firewall configured 
 
 clear
+
+echo You now need to install minecraft
