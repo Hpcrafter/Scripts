@@ -27,6 +27,8 @@ firewall-cmd --permanent --zone=public --add-port=56423/tcp
 firewall-cmd --permanent --zone=public --add-port=56423/udp
 firewall-cmd --permanent --zone=public --add-port=8080/tcp
 firewall-cmd --permanent --zone=public --add-port=8080/udp
+firewall-cmd --permanent --zone=public --add-port=25565/tcp
+firewall-cmd --permanent --zone=public --add-port=25565/udp
 firewall-cmd --reload
 echo firewall configured 
 
