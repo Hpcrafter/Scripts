@@ -1,6 +1,6 @@
 echo This will open all the ports and install both Pterodactyl Panel and Wings
 echo Make Sure you have done the firewall on the oracle website as well
-echo make sure your domain is setup to go to this servers IP 
+echo make sure your domain you want to access the panel from and you want people to join from is setup to go to this servers IP 
 
 
 apt upgrade 
@@ -32,7 +32,7 @@ echo firewall configured
 
 clear
 
-echo installing panel Make Sure to say yes to SSL
+echo installing panel Make Sure to say yes to SSL and choose the domain you want to connect to the server with
 bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/master/install-panel.sh)
 echo panel installed. It can be accessed at https://yourdomain
 
