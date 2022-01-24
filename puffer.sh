@@ -28,3 +28,11 @@ curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/scr
 apt-get install pufferpanel
 systemctl enable pufferpanel
 systemctl start pufferpanel
+
+echo pufferpanel installed. 
+
+echo creating a user
+pufferpanel user add
+
+clear 
+echo PufferPanel fully setup. It can be accessed at IP:8080
