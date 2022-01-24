@@ -32,7 +32,7 @@ echo firewall configured
 
 clear
 
-echo installing panel Make Sure to say yes to SSL and choose the domain you want to connect to the server with
+echo installing panel Make Sure to say yes to SSL and choose the domain you want to connect to the panel with
 bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/master/install-panel.sh)
 echo panel installed. It can be accessed at https://yourdomain
 
